@@ -17,7 +17,7 @@ class A
   private static A instance=new A();
   public static void F()//静态
   {
-	A.G();//正确
+	instance.G();//正确
   }
   public void G()//非静态
   {
